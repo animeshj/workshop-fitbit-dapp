@@ -2,7 +2,7 @@
 // 1. make test account: https://www.fitbit.com/signup
 // 2. signup as dev: https://dev.fitbit.com/login
 // 3. register app: https://dev.fitbit.com/apps/new
-const CLIENT_ID = '22D5DZ';
+const CLIENT_ID = '22D5BV';
 // @NOTE only works if `https://dev.fitbit.com/apps/details/${CLIENT_ID}` has set Callback URL to `location.href` too
 const REDIRECT_URL = location.href.split('#')[0].split('?')[0]
 const DEFAULT_ADDRESS = "0x341997407aff8d4c624ac191cdf9088f42aa22aa";
